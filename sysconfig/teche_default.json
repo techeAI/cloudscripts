@@ -1,0 +1,798 @@
+{
+    "schemaVersion": 1,
+    "configProperties": {
+        "name": "default"
+    },
+    "categories": [
+        {
+            "id": "2b5be03b-07ad-4a95-800e-02786689ea22",
+            "name": "Network Management",
+            "position": 2
+        },
+        {
+            "id": "436d478e-e5bc-4039-8c09-cffb0e6dace7",
+            "name": "System Management",
+            "position": 1,
+            "type": "category"
+        },
+        {
+            "id": "69eaa56f-45f0-444a-be9b-fc7ffafac3b7",
+            "name": "Applications",
+            "position": 4,
+            "type": "category"
+        },
+        {
+            "id": "27458d02-66b2-4f47-9d2b-73f737420135",
+            "name": "Storage Management",
+            "position": 3
+        },
+        {
+            "id": "b70e60a4-eaa4-4c42-927a-629e54011272",
+            "name": "Personal",
+            "position": 5
+        }
+    ],
+    "wrappers": [
+        {
+            "id": "default",
+            "position": 0
+        },
+        {
+            "id": "b6e713a0-9ca7-4d4e-81f7-6775563ebc02",
+            "position": 1
+        },
+        {
+            "id": "36f16df1-a878-4d54-9cbe-baea2e84136a",
+            "position": 2
+        },
+        {
+            "id": "31557ec6-8b37-448d-87ef-e1ce48afc606",
+            "position": 3
+        },
+        {
+            "id": "8e7e000c-e0ee-4372-9bf5-7cefd407eafb",
+            "position": 4
+        }
+    ],
+    "apps": [
+        {
+            "id": "06460a17-0fa4-4af2-9fb4-4a6b9615d89e",
+            "name": "Services",
+            "url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:instanceState=running",
+            "appearance": {
+                "iconUrl": "https://openteche.s3.amazonaws.com/icons/Services.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:instanceState=running"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "436d478e-e5bc-4039-8c09-cffb0e6dace7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "466cb760-fc4b-4a0c-be41-d4563f289852",
+            "name": "Users",
+            "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/home",
+            "appearance": {
+                "iconUrl": "https://openteche.s3.amazonaws.com/icons/Users.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/home"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "436d478e-e5bc-4039-8c09-cffb0e6dace7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "d52318db-da73-4528-aa9d-469a2fe4c455",
+            "name": "Network",
+            "url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SecurityGroups:",
+            "appearance": {
+                "iconUrl": "https://openteche.s3.amazonaws.com/icons/Network.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#SecurityGroups:"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "2b5be03b-07ad-4a95-800e-02786689ea22"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "401d19bc-57b3-42ab-b2c4-864211611304",
+            "name": "MySite",
+            "url": "https://prefixmy.domainname",
+            "appearance": {
+                "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/world-www.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixmy.domainname"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "69eaa56f-45f0-444a-be9b-fc7ffafac3b7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "c8e3a1de-87eb-4b31-8237-cef60865b196",
+            "name": "Password Manager",
+            "url": "https://prefixvault.domainname",
+            "appearance": {
+                "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/vaultwarden.svg",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixvault.domainname"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "69eaa56f-45f0-444a-be9b-fc7ffafac3b7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "4755da6f-5b6e-4666-8e32-c4b0987b1663",
+            "name": "Monitor",
+            "url": "https://prefixmonitor.domainname",
+            "appearance": {
+                "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/zabbix.svg",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixmonitor.domainname/"
+            },
+            "area": {
+                "type": "wrapper",
+                "properties": {
+                    "id": "default"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 9,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                },
+                "md": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "2d18c255-309b-4513-96b6-920ca7045c43",
+            "name": "Diagnostics",
+            "url": "https://prefixmonitor.domainname",
+            "appearance": {
+                "iconUrl": "https://openteche.s3.amazonaws.com/icons/Diagnostics.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixmonitor.domainname/"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "436d478e-e5bc-4039-8c09-cffb0e6dace7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "21778d8e-ccce-4b8e-9600-3f739c2bf79d",
+            "name": "Headscale",
+            "url": "https://prefixnet.domainname/web",
+            "appearance": {
+                "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/network.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308",
+                    "404",
+                    "401"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixnet.domainname/web"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "2b5be03b-07ad-4a95-800e-02786689ea22"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "9014541f-784b-4848-8d75-7236703bd031",
+            "name": "Storage",
+            "url": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:v=3",
+            "appearance": {
+                "iconUrl": "https://openteche.s3.amazonaws.com/icons/Storage.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Volumes:v=3"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "27458d02-66b2-4f47-9d2b-73f737420135"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        },
+        {
+            "id": "f8b1a011-7e9a-45bd-a94c-ae0048a605b0",
+            "name": "Blogs",
+            "url": "https://prefixblog.domainname",
+            "appearance": {
+                "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/brand-blogger.png",
+                "appNameStatus": "normal",
+                "positionAppName": "column",
+                "lineClampAppName": 1,
+                "appNameFontSize": 16
+            },
+            "network": {
+                "enabledStatusChecker": true,
+                "statusCodes": [
+                    "200",
+                    "301",
+                    "302",
+                    "304",
+                    "307",
+                    "308"
+                ]
+            },
+            "behaviour": {
+                "isOpeningNewTab": true,
+                "externalUrl": "https://prefixblog.domainname/"
+            },
+            "area": {
+                "type": "category",
+                "properties": {
+                    "id": "69eaa56f-45f0-444a-be9b-fc7ffafac3b7"
+                }
+            },
+            "shape": {
+                "lg": {
+                    "location": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                }
+            },
+            "integration": {
+                "type": null,
+                "properties": []
+            }
+        }
+    ],
+    "widgets": [
+        {
+            "id": "430e2fc9-c5ef-4c5f-819b-103b22d8a242",
+            "type": "date",
+            "properties": {
+                "display24HourFormat": false,
+                "dateFormat": "dddd, MMMM D",
+                "enableTimezone": false,
+                "timezoneLocation": {
+                    "name": "Paris",
+                    "latitude": 48.85341,
+                    "longitude": 2.3488
+                },
+                "titleState": "both"
+            },
+            "area": {
+                "type": "wrapper",
+                "properties": {
+                    "id": "default"
+                }
+            },
+            "shape": {
+                "sm": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                },
+                "md": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                },
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 2,
+                        "height": 1
+                    }
+                }
+            }
+        },
+        {
+            "id": "0dcd2ffb-f207-4fbd-b7ba-12b5c6c19002",
+            "type": "dashdot",
+            "properties": {
+                "dashName": "SysVitals",
+                "url": "https://prefixvital.domainname/",
+                "usePercentages": true,
+                "columns": 4,
+                "graphHeight": 170,
+                "graphsOrder": [
+                    {
+                        "key": "cpu",
+                        "subValues": {
+                            "enabled": true,
+                            "multiView": true,
+                            "span": 1
+                        }
+                    },
+                    {
+                        "key": "ram",
+                        "subValues": {
+                            "enabled": true,
+                            "span": 1
+                        }
+                    },
+                    {
+                        "key": "network",
+                        "subValues": {
+                            "enabled": true,
+                            "compactView": false,
+                            "span": 1
+                        }
+                    },
+                    {
+                        "key": "storage",
+                        "subValues": {
+                            "enabled": true,
+                            "compactView": false,
+                            "span": 1,
+                            "multiView": true
+                        }
+                    },
+                    {
+                        "key": "gpu",
+                        "subValues": {
+                            "enabled": false,
+                            "span": 1
+                        }
+                    }
+                ]
+            },
+            "area": {
+                "type": "wrapper",
+                "properties": {
+                    "id": "default"
+                }
+            },
+            "shape": {
+                "sm": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 2,
+                        "height": 2
+                    }
+                },
+                "md": {
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 2,
+                        "height": 2
+                    }
+                },
+                "lg": {
+                    "location": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 7,
+                        "height": 2
+                    }
+                }
+            }
+        },
+        {
+            "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
+            "type": "weather",
+            "properties": {
+                "displayInFahrenheit": false,
+                "location": {
+                    "name": "Calcutta",
+                    "latitude": 22.56263,
+                    "longitude": 88.36304
+                },
+                "displayCityName": true
+            },
+            "area": {
+                "type": "wrapper",
+                "properties": {
+                    "id": "default"
+                }
+            },
+            "shape": {
+                "md": {
+                    "location": {
+                        "x": 5,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                },
+                "sm": {
+                    "location": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "size": {
+                        "width": 1,
+                        "height": 1
+                    }
+                },
+                "lg": {
+                    "location": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "size": {
+                        "width": 2,
+                        "height": 1
+                    }
+                }
+            }
+        }
+    ],
+    "settings": {
+        "common": {
+            "searchEngine": {
+                "type": "bing",
+                "properties": {}
+            }
+        },
+        "customization": {
+            "layout": {
+                "enabledLeftSidebar": false,
+                "enabledRightSidebar": false,
+                "enabledDocker": false,
+                "enabledPing": true,
+                "enabledSearchbar": true
+            },
+            "pageTitle": "TecheOS",
+            "logoImageUrl": "/imgs/logo/logo.png",
+            "faviconUrl": "/imgs/favicon/favicon-squared.png",
+            "backgroundImageUrl": "",
+            "customCss": "",
+            "colors": {
+                "primary": "red",
+                "secondary": "yellow",
+                "shade": 7
+            },
+            "appOpacity": 100,
+            "gridstack": {
+                "columnCountSmall": 3,
+                "columnCountMedium": 6,
+                "columnCountLarge": 10
+            },
+            "metaTitle": "TecheBOARD",
+            "backgroundImageAttachment": "fixed",
+            "backgroundImageRepeat": "no-repeat",
+            "backgroundImageSize": "cover"
+        },
+        "access": {
+            "allowGuests": false
+        }
+    }
+}
+
